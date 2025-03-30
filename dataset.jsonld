@@ -1,0 +1,142 @@
+<!-- FAIRness-enhanced metadata START -->
+
+<!-- Persistent ID and landing info -->
+<meta name="DC.identifier" content="https://doi.org/10.5281/zenodo.15106806" scheme="DCTERMS.URI" />
+<link rel="cite-as" href="https://doi.org/10.5281/zenodo.15106806" />
+<meta name="DC.title" content="ETRiS Data and Data Products" />
+<meta name="DC.type" content="Dataset" />
+<meta name="DC.language" content="en" scheme="DCTERMS.RFC5646" />
+<meta name="DC.publisher" content="Zenodo" />
+<meta name="DC.date" content="2025-03-29" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.license" content="https://creativecommons.org/licenses/by/4.0/" scheme="DCTERMS.URI" />
+<meta name="DC.rights" content="info:eu-repo/semantics/openAccess" scheme="DCTERMS.URI" />
+
+<!-- Authors -->
+<meta name="DC.creator" content="JALAYER, Fatemeh (ORCID:0000-0002-7580-8309)" />
+<meta name="DC.creator" content="Ebrahimian, Hossein (ORCID:0000-0002-4032-9084)" />
+<meta name="DC.creator" content="Soltani, Saeed (ORCID:0000-0003-1024-8344)" />
+<meta name="DCTERMS.contributor" content="University College London Institute for Risk and Disaster Reduction" />
+<meta name="DCTERMS.contributor" content="University of Naples Federico II" />
+
+<!-- Subject and variables -->
+<meta name="DC.subject" content="Tsunami, fragility curves, vulnerability curves, HazardLevel, Exposure, PTRA" />
+
+<!-- Description -->
+<meta name="DC.description" content="The European Tsunami Risk Service (ETRiS) is a DDSS (Data, Data Products, Services, and Software) service for tsunami risk. It provides access to datasets including tsunami intensity measures (IM), damage (DM), and fatalities (DV), and data products like fragility and vulnerability curves. It is part of the TCS Tsunami, integrated into EPOS-ICS-C." />
+
+<!-- File metadata -->
+<meta name="DC.format" content="application/zip" />
+<meta name="DC.extent" content="51.8 MB" />
+<link rel="distribution" href="https://zenodo.org/api/records/15106806/files/etris_data_and_data_products.zip/content" type="application/zip" />
+<link rel="describedby" href="https://zenodo.org/records/15106806" type="text/html" />
+
+<!-- Related resources -->
+<link rel="related" href="https://doi.org/10.1000/example-article" title="Related research article" />
+<link rel="related" href="https://github.com/eurotsunamirisk/trmtk" title="GitHub code repository" />
+
+<!-- Data services -->
+<link rel="service" href="https://etris.shinyapps.io/etris_data_products_dashboard_fragility/" type="text/html" title="Fragility Dashboard" />
+<link rel="service" href="https://etris.shinyapps.io/etris_data_products_dashboard_vulnerability/" type="text/html" title="Vulnerability Dashboard" />
+
+<!-- JSON-LD RDF link -->
+<link rel="describedby" href="https://www.eurotsunamirisk.org/#dataset-jsonld" type="application/ld+json" />
+
+<!-- JSON-LD structured metadata -->
+<script type="application/ld+json" id="dataset-jsonld">
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+  "@type": "Dataset",
+  "name": "ETRiS Data and Data Products",
+  "description": "The European Tsunami Risk Service (ETRiS) is a DDSS (Data, Data Products, Services, and Software) service for tsunami risk. It provides access to datasets including tsunami intensity measures (IM), damage (DM), and fatalities (DV), and data products like fragility and vulnerability curves. It is part of the TCS Tsunami, integrated into EPOS-ICS-C.",
+  "url": "https://www.eurotsunamirisk.org",
+  "identifier": "https://doi.org/10.5281/zenodo.15106806",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "JALAYER, Fatemeh",
+      "affiliation": "University College London Institute for Risk and Disaster Reduction",
+      "identifier": "https://orcid.org/0000-0002-7580-8309"
+    },
+    {
+      "@type": "Person",
+      "name": "Ebrahimian, Hossein",
+      "affiliation": "University of Naples Federico II",
+      "identifier": "https://orcid.org/0000-0002-4032-9084"
+    },
+    {
+      "@type": "Person",
+      "name": "Soltani, Saeed",
+      "affiliation": "University of Naples Federico II",
+      "identifier": "https://orcid.org/0000-0003-1024-8344"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "keywords": [
+    "Tsunami",
+    "fragility curves",
+    "vulnerability curves",
+    "HazardLevel",
+    "Exposure",
+    "PTRA"
+  ],
+  "datePublished": "2025-03-29",
+  "distribution": {
+    "@type": "DataDownload",
+    "contentUrl": "https://zenodo.org/records/15106806",
+    "encodingFormat": [
+      "application/zip",
+      "text/csv",
+      "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "text/plain"
+    ],
+    "contentSize": "51827542 bytes"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "HazardLevel"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Exposure"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Vulnerability"
+    }
+  ],
+  "measurementTechnique": "Post-event tsunami risk assessment using empirical vulnerability data and probabilistic tsunami hazard analysis.",
+  "resourceType": {
+    "@type": "CreativeWork",
+    "name": "Dataset"
+  },
+  "citation": "https://doi.org/10.1000/example-article",
+  "isBasedOn": "https://github.com/eurotsunamirisk/trmtk",
+  "hasPart": {
+    "@type": "SoftwareSourceCode",
+    "name": "TRMTK",
+    "codeRepository": "https://github.com/eurotsunamirisk/trmtk",
+    "programmingLanguage": "R"
+  },
+  "prov:generatedAtTime": "2025-03-29",
+  "prov:wasAttributedTo": [
+    {
+      "@type": "Organization",
+      "name": "Zenodo"
+    },
+    {
+      "@type": "Organization",
+      "name": "European Tsunami Risk Service (ETRiS)"
+    }
+  ]
+}
+</script>
+
+<!-- FAIRness-enhanced metadata END -->
